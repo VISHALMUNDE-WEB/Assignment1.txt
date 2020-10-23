@@ -1,0 +1,62 @@
+vishal@vishal-VirtualBox:~$ cd Desktop/
+vishal@vishal-VirtualBox:~/Desktop$ ls
+Assignment2.txt  f3.doc  f4.doc  f5.doc  file1  file2  myfolder
+vishal@vishal-VirtualBox:~/Desktop$ cd myfolder/
+vishal@vishal-VirtualBox:~/Desktop/myfolder$ ls
+vishal@vishal-VirtualBox:~/Desktop/myfolder$ touch file.txt
+vishal@vishal-VirtualBox:~/Desktop/myfolder$ cp file.txt ~
+vishal@vishal-VirtualBox:~/Desktop/myfolder$ mv file.txt  ~
+vishal@vishal-VirtualBox:~/Desktop/myfolder$ cd ~/
+vishal@vishal-VirtualBox:~$ ls
+a.txt  Desktop    examples.desktop  Music     Pictures   Videos
+b.txt  Documents  file.txt          myfile    Public
+c.txt  Downloads  f.txt             myfolder  Templates
+vishal@vishal-VirtualBox:~$ touch f.txt j.txt
+vishal@vishal-VirtualBox:~$ cat > f
+file.txt  f.txt     
+vishal@vishal-VirtualBox:~$ cat > f.txt 
+my name is vishal
+vishal@vishal-VirtualBox:~$ cat > j.txt 
+my mother name is jyoti
+vishal@vishal-VirtualBox:~$ cd Desktop/
+vishal@vishal-VirtualBox:~/Desktop$ touch 1.txt 2.txt 3.doc 4.doc 5.doc
+vishal@vishal-VirtualBox:~/Desktop$ ls
+1.txt  3.doc  5.doc            f3.doc  f5.doc  file2
+2.txt  4.doc  Assignment2.txt  f4.doc  file1   myfolder
+vishal@vishal-VirtualBox:~/Desktop$ ls *.txt
+1.txt  2.txt  Assignment2.txt
+vishal@vishal-VirtualBox:~/Desktop$ cd ~
+vishal@vishal-VirtualBox:~$ ls D*
+Desktop:
+1.txt  3.doc  5.doc            f3.doc  f5.doc  file2
+2.txt  4.doc  Assignment2.txt  f4.doc  file1   myfolder
+
+Documents:
+
+Downloads:
+class recordings 
+wallpapersden.com_emraan-hashmi-black-and-white-wallpapers_1600x900.jpg
+vishal@vishal-VirtualBox:~$ ls *e
+myfile
+vishal@vishal-VirtualBox:~$ cat > a.txt 
+my favourite singer is arijit singh
+vishal@vishal-VirtualBox:~$ cat > b.txt 
+my favourite cricket player is ab devilliers
+vishal@vishal-VirtualBox:~$ ls
+a.txt  Desktop    examples.desktop  j.txt   myfolder  Templates
+b.txt  Documents  file.txt          Music   Pictures  Videos
+c.txt  Downloads  f.txt             myfile  Public
+vishal@vishal-VirtualBox:~$ ls
+a.txt    Documents         file.txt  Music     Pictures   Videos
+b.txt    Downloads         f.txt     myfile    Public
+Desktop  examples.desktop  j.txt     myfolder  Templates
+vishal@vishal-VirtualBox:~$ cat a.txt b.txt > c.txt 
+vishal@vishal-VirtualBox:~$ ls
+a.txt  Desktop    examples.desktop  j.txt   myfolder  Templates
+b.txt  Documents  file.txt          Music   Pictures  Videos
+c.txt  Downloads  f.txt             myfile  Public
+vishal@vishal-VirtualBox:~$ cat c.txt 
+my favourite singer is arijit singh
+my favourite cricket player is ab devilliers
+vishal@vishal-VirtualBox:~$ 
+
